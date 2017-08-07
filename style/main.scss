@@ -19,6 +19,7 @@ body {
   background-size: cover;
   background-color: $primary-color-black;
   background-attachment: fixed;
+  width: 100%;
 }
 
 .nav-wrapper {
@@ -154,7 +155,8 @@ body {
 .card-piece {
   border: 1px solid rgba(255, 255, 255, 0.2);
   height: 0;
-  display: flex;
+  min-height: 300px;
+  display: inline-flex;
   position: relative;
   width: 25%;
   padding-bottom: 25%;
@@ -162,6 +164,7 @@ body {
   align-items: center;
   background-color: black;
   transition: 0.8s;
+
 
   &:hover {
     background-color: white;
@@ -240,6 +243,7 @@ body {
   .card-piece {
     width: 33.33333%;
     padding-bottom: 33.33333%;
+    min-height: 300px;
   }
 }
 
@@ -257,6 +261,31 @@ body {
   .card-piece {
     width: 100%;
     padding-bottom: 100%;
+  }
+
+  .first-word-wrapper {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .first-word {
+      font-family: $font;
+      font-size: 1.2em;
+      font-weight: 200;
+      font-style: italic;
+      color: $text-color;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      animation: rotateX 2s linear;
+      &::before {
+        content: '" ';
+      }
+      &::after {
+        content: ' "';
+      }
+    }
   }
 
   .footer-wrapper {
