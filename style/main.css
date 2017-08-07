@@ -2509,7 +2509,7 @@ a, a:active, a:focus, a:visited, a:link {
   color: inherit; }
 
 body {
-  background-image: url("/images/page-bg.png");
+  background-image: url("/image/page-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2582,7 +2582,7 @@ body {
   color: white;
   position: relative;
   overflow: hidden;
-  background-image: url("/images/Thuan.jpg");
+  background-image: url("/image/Thuan.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; }
