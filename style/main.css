@@ -2509,7 +2509,7 @@ a, a:active, a:focus, a:visited, a:link {
   color: inherit; }
 
 body {
-  background-image: url("/image/page-bg.png");
+  background-image: url("/image/pageBg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
