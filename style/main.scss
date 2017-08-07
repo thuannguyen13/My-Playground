@@ -13,7 +13,7 @@ a, a:active, a:focus, a:visited, a:link{
 }
 
 body {
-  background-image: url('pageBg.png');
+  background: url('pageBg.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +85,7 @@ body {
   color: white;
   position: relative;
   overflow: hidden;
-  background-image: url('Thuan.jpg');
+  background-image: linear-gradient(180deg,rgba(47, 47, 47, 0.67),rgba(47, 47, 47, 0.67)), url('Thuan.jpg');
 
   background-position: center center;
   background-size: cover;
